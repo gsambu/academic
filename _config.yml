@@ -1,0 +1,72 @@
+# Site settings
+title: "Dr. Sambasivam Gnanasekaran"
+description: "Assistant Professor, School of Computing & Data Science, Xiamen University Malaysia — Academic CV and publications."
+url: "https://gsamb.github.io/academic"  # change to your GitHub Pages URL if known
+baseurl: "/academic"                           # change or leave empty if using user/organization site
+
+# Theme (remote)
+remote_theme: "mmistakes/minimal-mistakes"
+theme: "minimal-mistakes-jekyll"
+
+# Author / social
+author:
+  name: "Dr. Sambasivam Gnanasekaran"
+  email: "sambasivam.gnanasekaran@xmu.edu.my"
+  affiliation: "School of Computing & Data Science, Xiamen University Malaysia"
+
+# Navigation (left sidebar)
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Research"
+    url: "/#research"
+  - title: "Publications"
+    url: "/publications"
+  - title: "Teaching"
+    url: "/teaching"
+  - title: "Grants"
+    url: "/grants"
+  - title: "CV"
+    url: "/assets/Sambasivam_CV.pdf"
+  - title: "Contact"
+    url: "/contact"
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minimal Mistakes options
+repository: "<your-github-username>/<repo-name>"
+permalink: /:title/
+paginate: 10
+
+# Social links
+social:
+  - title: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=VZdE1t8AAAAJ&hl=en"
+  - title: "ORCID"
+    url: "https://orcid.org/0000-0002-7407-4796"
+  - title: "Web of Science"
+    url: "https://www.webofscience.com/wos/author/record/M-7025-2018"
+  - title: "Scopus"
+    url: "https://www.scopus.com/authid/detail.uri?authorId=57195901387"
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/gsambasivam/"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      comments: false
+      author_profile: true
+
+# SEO
+jekyll_seo_tag:
+  twitter:
+    username: ""
