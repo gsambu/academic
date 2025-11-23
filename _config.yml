@@ -1,12 +1,11 @@
 # Site settings
 title: "Dr. Sambasivam Gnanasekaran"
 description: "Assistant Professor, School of Computing & Data Science, Xiamen University Malaysia — Academic CV and publications."
-url: "https://gsamb.github.io/academic"  # change to your GitHub Pages URL if known
-baseurl: "/academic"                           # change or leave empty if using user/organization site
+url: "https://gsamb.github.io/academic"
+baseurl: "/academic"
 
-# Theme (remote)
+# Theme (only remote_theme allowed)
 remote_theme: "mmistakes/minimal-mistakes"
-theme: "minimal-mistakes-jekyll"
 
 # Author / social
 author:
@@ -37,9 +36,10 @@ nav:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-include-cache   # required for Minimal Mistakes
 
 # Minimal Mistakes options
-repository: "<your-github-username>/<repo-name>"
+repository: "gsamb/academic"
 permalink: /:title/
 paginate: 10
 
